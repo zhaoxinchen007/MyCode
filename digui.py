@@ -1,8 +1,9 @@
-def test(num):
-    if num > 0:
-        return 'yes'
+def countdown(i):
+    if i < 0:
+        pass
     else:
-        return
+        print(i)
+        countdown(i-1)
 
 
-print(test(11))
+countdown(11)
